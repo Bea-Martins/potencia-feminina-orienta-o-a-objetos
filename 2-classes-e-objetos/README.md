@@ -64,4 +64,4 @@ televisao.aumentar_volume()
 
   - Passando o mouse em cima dos nomes no `import`, podemos ver que eles são classes.
 
-  ⭐️ From [WoMakersCode](https://github.com/WoMakersCode/back-end-python/tree/main/orientacao-a-objetos/2-classes-e-objetos)
+⭐️ From [WoMakersCode](https://github.com/WoMakersCode/back-end-python/tree/main/orientacao-a-objetos/2-classes-e-objetos)
