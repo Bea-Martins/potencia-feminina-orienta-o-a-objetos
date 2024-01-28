@@ -1,1 +1,1 @@
-# potencia-feminina-orienta-o-a-objetos
+# Potência Feminina: Orientação a Objetos com Python
