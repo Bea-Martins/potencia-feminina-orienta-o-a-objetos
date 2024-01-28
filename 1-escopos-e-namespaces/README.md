@@ -122,3 +122,5 @@ def minha_funcao():
 - Declaramos a variável `bebida` no escopo `global` do módulo, então ela pode ser vista dentro de todas as funções daquele módulo.
 - Se criarmos outra variável `bebida` dentro da função `cardapio`, na verdade estamos criando uma nova variável local, e não alterando a variável global. A variável local tem prioridade porque está declarada no escopo da função.
 - Para alterar o valor de uma variável global dentro de uma função, precisamos informar a função que vamos utilizar a variável do escopo global.
+
+⭐️ From [WoMakersCode](https://github.com/WoMakersCode/back-end-python/tree/main/orientacao-a-objetos/1-escopos-e-namespaces)
