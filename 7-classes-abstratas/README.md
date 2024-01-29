@@ -28,4 +28,4 @@
 * Se algum dos métodos não for implementado, não conseguiremos instanciar o objeto da classe `Pikachu`.
 * Novos métodos podem ser adicionados nas classes derivadas.
 
-⭐️ From [WoMakersCode](https://github.com/WoMakersCode/back-end-python/tree/main)
+⭐️ From [WoMakersCode](https://github.com/WoMakersCode/back-end-python/tree/main/orientacao-a-objetos/7-classes-abstratas)
