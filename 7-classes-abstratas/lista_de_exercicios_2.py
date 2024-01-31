@@ -15,14 +15,45 @@
 
 from abc import ABC, abstractmethod
 
-class BancoDelas(ABC):
-  def __init__(self, nome, telefone, renda_mensal):
+class ModeloConta(ABC):
+  def __init__(self, cliente, numero_conta):
+    self.cliente = cliente
+    self.__numero_conta = numero_conta
+
+  @abstractmethod
+  def sacar(self, valor):
+    pass
+
+  @abstractmethod
+  def depositar(self, valor):
+    pass
+
+  @abstractmethod
+  def extrato(self, valor):
+    pass
+
+  @abstractmethod
+  def saldo(self, valor):
+    pass
+
+  @abstractmethod
+  def apresentar_conta(self, valor):
+    pass
+
+class ContaCorrente(ModeloConta):
+  def __init__(self, cliente, numero_conta):
+    super().__init__(cliente, numero_conta)
+
+
+class Cliente:
+  def __init__(self, nome, telefone, sexo, renda_mensal):
     self.nome = nome
     self.telefone = telefone
+    self.sexo = sexo
     self.renda_mensal = renda_mensal
+    
 
-class ContaCorrente(BancoDelas):
-  def __init__(self, nome, telefone, renda_mensal):
-    super().__init__(nome, telefone, renda_mensal)
 
-## Em desenvolvimento
+# beatriz = Cliente('Beatriz','11987654321','feminino','30000')
+# conta_mozoes = ContaCorrente(beatriz, 1)
+# print(conta_mozoes)
